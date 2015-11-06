@@ -1,0 +1,299 @@
+/*
+Template Name: Gallerised
+File: Layout CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+@import url(forms.css);
+@import url(tables.css);
+
+
+/*
+img{display:block; margin:0; padding:0; border:none;}
+.justify{text-align:justify;}
+.bold{font-weight:bold;}
+.center{text-align:center;}
+.right{text-align:right;}
+.nostart{list-style-type:none; margin:0; padding:0;}
+.clear{clear:both;}
+br.clear{clear:both; margin-top:-15px;}
+
+a{outline:none; text-decoration:none; color:#FFFF00; background-color:#000000;}
+
+.fl_left{float:left;}
+.fl_right{float:right;}
+
+.imgl, .imgr{border:1px solid #C7C5C8; padding:5px;}
+.imgl{float:left; margin:0 8px 8px 0; clear:left;}
+.imgr{float:right; margin:0 0 8px 8px; clear:right;}
+
+.abcenter{
+	vertical-align:middle;
+	margin:auto;
+	margin-right:auto;
+	margin-top:auto;
+	margin-left:auto;
+	margin-bottom:auto;
+	text-align:center;
+	}
+	
+.pg_center{
+	margin:auto;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;}
+*/
+/* ----------------------------------------------Wrapper-------------------------------------
+*/
+div.wrapper{
+	display:block;
+	width:100%;
+	margin:0;
+	text-align:left;
+	}
+
+div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, div.wrapper h6{
+	margin:0 0 15px 0;
+	padding:0;
+	font-size:20px;
+	font-weight:normal;
+	line-height:normal;
+	}
+
+.col1{border-top:5px solid #666;}
+.col1 a{color:#CCCCCC; background-color:#000000;}
+.col2{padding:20px 0;}
+.col3{}
+.col4{}
+.col5, .col5 a{color:#333; background-color:#000;}
+
+----------------------------------------------Generalise-------------------------------------*/
+
+
+
+/* ----------------------------------------------Header-------------------------------------
+
+#header{
+	padding:30px 0;
+	z-index:1000;
+	}
+
+#header .fl_left{
+	display:block;
+	float:left;
+	overflow:hidden;
+	}
+
+#header h1, #header p, #header ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal;
+	}
+
+#header h1 a{
+	font-size:36px;
+	}
+
+#header .fl_left p{
+	margin-top:5px;
+	}
+
+----------------------------------------------BreadCrumb-------------------------------------*/
+
+#breadcrumb{
+	padding:30px 0;
+	border-top:1px dotted #666;
+	border-bottom:1px dotted #666;
+	}
+
+#breadcrumb ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+
+#breadcrumb ul li{display:inline;}
+#breadcrumb ul li.current a{text-decoration:underline;}
+
+/* ----------------------------------------------Content-------------------------------------*/
+
+#container{
+	padding:30px 0;
+	border-bottom:1px dotted #666;
+	}
+
+
+#content{
+	display:block;
+	float:left;
+	width:630px;
+	}
+
+/* ------Comments-----*/
+
+#comments{margin-bottom:40px;}
+
+#comments .commentlist {margin:0; padding:0;}
+
+#comments .commentlist ul{margin:0; padding:0; list-style:none;}
+
+#comments .commentlist li.comment_odd, #comments .commentlist li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
+
+#comments .commentlist li.comment_odd{color:#CCCCCC; background-color:#333333;}
+#comments .commentlist li.comment_odd a{color:#FFFF00; background-color:#333333;}
+
+#comments .commentlist li.comment_even{color:#CCCCCC; background-color:#1E1E1E;}
+#comments .commentlist li.comment_even a{color:#FFFF00; background-color:#1E1E1E;}
+
+#comments .commentlist .author .name{font-weight:bold;}
+#comments .commentlist .submitdate{font-size:smaller;}
+
+#comments .commentlist p{margin:10px 5px 10px 0; padding:0; font-weight:normal;text-transform:none;}
+
+#comments .commentlist li .avatar{float:right; border:1px solid #EEEEEE; margin:0 0 0 10px;}
+
+/*
+----------------------------------------Offer Page -------------------------------------------
+*/
+
+#offwrap{
+
+	margin-right:auto;
+	
+	}
+#offer{
+	display:block;
+	float:left;
+	position: relative;
+
+	height:450px;
+	width: 700px;
+	padding:5px;
+	background:url("../images/featured_slide/stripe.gif") top left repeat #242424;
+	border-radius:5px;
+	}
+
+#offerfl2{
+	position:relative;
+	dispaly:inline;
+	color:#FC3;
+	text-align:right;
+	margin-right:10px;
+	margin-top:25px;
+	}
+
+#offer_float{
+	position:relative;
+	left:450px;
+	height:170px;
+	width:150px;
+	color:#0FC;
+	border-radius:10px;
+
+	padding:10px 0 0 0;
+	
+	background-color:#000;
+
+	
+	text-align:center;
+	margin-bottom:20px;
+	}
+
+
+#offer_image{
+	
+	width:700px; /* important to be same as image width */
+	height:450px;
+	position:absolute;
+	left:.75%;
+	display:inline;
+	background-color:#333333;
+	dispaly:inline;
+	}
+
+#offerside{
+	display:inline;
+	float:left;
+	border-radius:10px;
+	height:575px;
+	/*left:70%;
+	top: -700px;*/
+	width:220px;
+	padding:2px;
+	margin-left:20px;
+	border: 2px medium #CCC;
+	background-color:#1F1F1F;
+	display:block;
+	}
+
+.offsidebox{
+	background-color:#666;
+	width:220px;
+	margin-right:auto;
+	position:relative;
+	opacity:.7;
+	color:#000;
+	top:-15px;
+	border-radius:4px;}
+	
+	.offsidebox a{
+	color:#000;
+	}
+.smallbox{
+	background-color:#FFF;
+	width:268px;
+	
+	margin-right:auto;
+	position:relative;
+	opacity:.9;
+	color: #000;
+	text-align:center;
+	top:-40px;}
+
+
+.offerdetails{
+	position:relative;
+	top:-4px;
+	background-image:url(../images/featured_slide/offdetails.png);
+	background-position:center;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+color:#000;
+	height: 80px;
+	width:660px;
+	border-bottom-left-radius:25px;
+	border-bottom-right-radius:25px;
+	margin-left:0px;
+	opacity:1;
+	padding:20px;
+
+	}
+.offerdetails p{
+}
+/*
+#offer div.offerside{
+	display:inline;
+	position:absolute;
+	right:0;
+	vertical-align:central;
+	text-align:center;
+	margin-right:0;
+	top:0;
+	width:400px;
+	height:450px;
+	padding:10px 10px;
+	color:#fff;
+	background-color:#000;
+	
+	text-align:center;
+	filter:alpha(opacity=70);
+	-moz-opacity:0.7;
+	-khtml-opacity:0.7;
+	opacity:0.7;
+	display:none;
+	
+	}
+*/
